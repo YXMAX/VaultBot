@@ -1,0 +1,20 @@
+name: VaultBot
+version: '${version}'
+main: com.yxmax.vaultBot.VaultBot
+api-version: '1.14'
+
+commands:
+  vaultbot:
+    aliases: vbot
+
+permissions:
+  vaultbot.command.reload:
+    default: op
+  vaultbot.command.check:
+    default: op
+  vaultbot.command.inventory:
+    default: true
+  vaultbot.inventory.place:
+    default: true
+  vaultbot.inventory.pickup:
+    default: true

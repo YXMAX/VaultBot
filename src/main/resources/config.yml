@@ -1,0 +1,40 @@
+Prefix: '&f[&eVaultBot&f] '
+
+Language: zh-CN
+
+Check-update: true
+
+Inventory:
+  title: 'Inventory'
+
+  event:
+    place: false
+    pickup: true
+
+  open_sound:
+    enabled: true
+    value: 'UI_BUTTON_CLICK:1:1'
+
+  pickup_sound:
+    enabled: true
+    value: 'ENTITY_PLAYER_LEVELUP:1:1'
+
+  detected_lore:
+    - '加成属性'
+    - '稀有度: 史诗'
+
+  blacklist:
+    material:
+      - 'BARRIER'
+    lore:
+      - '禁止放入仓库'
+
+Databases:
+  MySQL: false
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  database: vaultbot
+  allowPublicKeyRetrieval: false
+  useSSL: true

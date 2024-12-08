@@ -1,0 +1,11 @@
+Messages:
+  Reload: '&a插件已重载..'
+  No_permission: '&c你没有使用该命令的权限!'
+  Unknown_command: '&c未知命令或参数!'
+  Open_inventory: '&e成功打开随身仓库..'
+  Check_player_null: '&c请填入正确的玩家名称!'
+  Check_player_error: '&c未找到该玩家数据!'
+  Check_success: '&e打开玩家 %check_player% 的随身仓库..'
+  Only_player: '&c该命令仅游戏内可用!'
+  Pickup_success: '&a物品 &r%item% &a已被收纳进随身仓库'
+  Blacklist_notice: '&c该物品已被禁止放入仓库中'

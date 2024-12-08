@@ -1,0 +1,11 @@
+Messages:
+  Reload: '&aPlugin reload..'
+  No_permission: '&cYou do not have permission to use this command!'
+  Unknown_command: '&cUnknown command!'
+  Open_inventory: '&eOpening vault..'
+  Check_player_null: '&cPlease enter a correct player!'
+  Check_player_error: '&cCannot find the player!'
+  Check_success: "&eOpening player %check_player%'s vault.."
+  Only_player: '&cThis action is only available for players...'
+  Pickup_success: '&aItem &r%item% &astored in the vault'
+  Blacklist_notice: '&cThis item is on the blacklist!'
